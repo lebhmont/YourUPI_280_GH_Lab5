@@ -26,7 +26,10 @@ HEX_CHARS = {
     15: 'F'
 }
 def factorial(number):
-    return
+    fac=1
+    for i in range(1,number + 1):
+        fac = fac*i
+    return fac
 
 def convert_base(num, n):
     """Change a base 10 number to a base-n number. Supports up to base 16. """
