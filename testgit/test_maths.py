@@ -18,6 +18,11 @@ class MathsTest(unittest.TestCase):
         ''' Tests the fibonacci function. '''
         pass # TODO
 
+    def test_factorial(self):
+        value=7
+        result=maths.factorial(value)
+        self.assertEqual(5040, result)
+
 
 # This allows running the unit tests from the command line (python test_maths.py)
 if __name__ == '__main__':
